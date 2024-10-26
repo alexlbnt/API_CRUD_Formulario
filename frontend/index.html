@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Missões de RPG</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Adicionando um link para os ícones (usando FontAwesome como exemplo) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><i class="fas fa-scroll"></i> Missões de RPG <i class="fas fa-shield-alt"></i></h1>
+    </header>
+
+    <main>
+      <table id="task-table">
+        <thead>
+          <tr>
+            <th>Título</th>
+            <th>Descrição</th>
+            <th>Status</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- As missões serão inseridas aqui dinamicamente -->
+        </tbody>
+      </table>
+
+      <form id="task-form">
+        <h2><i class="fas fa-feather-alt"></i> Adicionar ou Editar Missão</h2>
+        <input type="text" id="title" placeholder="Título da Missão" required>
+        <textarea id="description" placeholder="Descrição da Missão"></textarea>
+        <select id="status">
+          <option value="pendente">Pendente</option>
+          <option value="concluída">Concluída</option>
+        </select>
+        <input type="hidden" id="task-id">
+        <button type="submit"><i class="fas fa-save"></i> Salvar Missão</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

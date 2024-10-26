@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body {
+  background-color: #1c0e0e; 
+  font-family: 'MedievalSharp', cursive;
+  color: #1c1c1c; 
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #d4af37; 
+  font-family: 'MedievalSharp', cursive;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: url('https://www.toptal.com/designers/subtlepatterns/patterns/old_wall.png'); 
+  padding: 20px;
+  border: 5px solid #3d2b2b; 
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); 
+}
+
+header {
+  background-color: #5a3d3d; 
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+header h1 i {
+  color: #f1c40f; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #5a3d3d;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #3d2b2b;
+}
+
+th {
+  background-color: #3d2b2b; 
+  color: #1c1c1c; 
+}
+
+td {
+  background-color: rgba(234, 218, 184, 0.8); 
+  color: #1c1c1c; 
+}
+
+td.task-actions button {
+  background-color: #5a3d3d;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+td.task-actions button:hover {
+  background-color: #3d2b2b;
+}
+
+button.edit {
+  background-color: #d4af37; 
+  color: #3d2b2b;
+}
+
+button.delete {
+  background-color: #991f1f;
+  color: white;
+}
+
+#task-form {
+  background-color: rgba(234, 218, 184, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#task-form input, #task-form textarea, #task-form select {
+  margin: 5px 0;
+  padding: 10px;
+  width: 100%;
+  border: 2px solid #3d2b2b;
+  border-radius: 5px;
+  background-color: #f9f4e3; 
+  color: #1c1c1c; 
+}
+
+#task-form button {
+  background-color: #c29f46; 
+  color: #3d2b2b;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#task-form button:hover {
+  background-color: #a3822b; 
+}
